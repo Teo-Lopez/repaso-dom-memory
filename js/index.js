@@ -28,7 +28,7 @@ const cards = [
 //instanciamos el memoryGame, la lógica del juego
 const memoryGame = new MemoryGame(cards)
 //barajamos las cartas
-// memoryGame.shuffleCards()
+memoryGame.shuffleCards()
 
 window.addEventListener('load', event => {
 	//se genera el HTML de las cartas
